@@ -5,12 +5,97 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MP1 Starter</title>
+    <script src="https://use.fontawesome.com/b0ceb3802f.js"></script>
 </head>
 
 <body>
+  <div class="topNav" id="nav">
+    <div class="pull-left">
+      <a>Naijing Zhang</a>
+    </div>
+    <div class="pull-right">
+      <a id="carousel">Food</a>
+      <a id="movie">Motto</a>
+      <a id="modal">Classes</a>
+      <a id="multi">Sale</a>
+      <a id="fixed">About</a>
+    </div>
+  </div>
 
-    <h2>Welcome to MP1!</h2>
+  <div data-carousel="blah" class="Carousel" id="caid">
+    <div class="Carousel-Slide clearfix">
+        <div class="Carousel-Slide-item" data-background="url(../assets/8.jpg)"></div>
+        <div class="Carousel-Slide-item" data-background="url(../assets/6.jpg)"></div>
+        <div class="Carousel-Slide-item" data-background="url(../assets/9.jpg)"></div>
+        <div class="Carousel-Slide-item" data-background="url(../assets/3.jpg)"></div>
+        <div class="Carousel-Slide-item" data-background="url(../assets/2.jpg)"></div>
+        <div class="Carousel-Slide-item" data-background="url(../assets/1.jpg)"></div>
+    </div>
+    <div class="Carousel-Controller">
+        <div class="Carousel-Controller-Nav">
+            <div class="Carousel-Controller-Nav-left">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </div>
+            <div class="Carousel-Controller-Nav-right">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+  </div>
 
+
+  <div class="video" id="video-container">
+    <video id="v" autoplay loop>
+      <source src="assets/mountainocean.mp4" type="video/mp4">
+    </video>
+    <div class="overlay">
+        <p>SUNSETS<br>
+        are proof that no matter what happens,<br>
+        every day can end beautifully.</p>
+        <p id="quote-name">Kristen Butler</p>
+    </div>
+  </div>
+
+  <div class="modal-container" id="modal-contain">
+    <img id="myImg1" src="assets/class1.png" alt="CS498RK: The Art of Web Programming">
+    <img id="myImg2" src="assets/class2.png" alt="CS421: Programming Languages and Compilers">
+    <img id="myImg3" src="assets/class3.png" alt="CS440: Artificial Intelligence">
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+
+  <div class="multi-column" id="mc">
+    <i class="fa fa-laptop fa-3x" aria-hidden="true"></i>
+    <p>MacBook Pro (Retina, 13-inch, Early 2015)</p><p>Price: $2000</p>
+    <p>Features:<br>90% new<br>Battery cycle count 600<br>All keys are functional<br>Many apps installed</p>
+    <i class="fa fa-coffee fa-3x" aria-hidden="true"></i>
+    <p>Coffee Cup</p><p>Price: $12</p>
+    <p>Features:<br>95% new<br>Tall and thin<br>Ceramic<br>Checkerborad pattern</p>
+    <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+    <p>iPhone 6</p><p>Price: $350</p>
+    <p>Features:<br>89% new<br>Screen replaced<br>Earphone lost<br>Many apps installed</p>
+  </div>
+
+  <div class="fixed-background">
+    <img src="assets/back.jpg">
+  </div>
+
+
+  <footer>
+    <div class="foot-container" id="foot-contain">
+      <div class="foot-content">
+        <p>CS498RK MP1 Naijing Zhang</p>
+        <i class="fa fa-weixin fa-lg" aria-hidden="true"></i>Wechat: znj9qq
+        <br><br>
+        <i class="fa fa-github fa-lg" aria-hidden="true"></i>Github: NoSegfault
+        <p>Email: nzhang31_at_illinois_dot_edu
+      </div>
+    </div>
+  </footer>
     <script src="bundle.js" type="text/javascript"></script>
 </body>
 
