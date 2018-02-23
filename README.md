@@ -1,12 +1,10 @@
-# MP #1: One Web Page To Rule Them All
-### Due: Sept 25, 11.59PM CDT
+# Single-Page-Web
+
 
 ## Table of Contents
 1. [Assignment](#assignment)
-2. [Grading Breakdown](#grading-breakdown)
-3. [Rules](#rules)
-4. [Environment Setup Guide](#environment-setup-guide)
-5. [Submission Details](#submission-details)
+2. [Environment Setup Guide](#environment-setup-guide)
+
 
 ## Assignment
 
@@ -38,32 +36,6 @@ Your webpage will have to implement the features listed below. Note that the exa
 14. At least one use of scalable vector icons through CSS (e.g. FontAwesome)
 15. Inclusion of social media icons
 
-## Grading Breakdown
-
-- Layout and Overall Design - 20%
-- Code (follows HTML5, SASS/SCSS, ES5 or ES6 best practices) - 13%
-- Smooth Scrolling - 10%
-- Carousel - 10%
-- Modal - 10%
-- Responsiveness - 10%
-- Position Indicator - 5%
-- Navbar Resizing - 5%
-- Multi-column layout - 5%
-- CSS3 Animations - 5%
-- Centering - 2%
-- Video - 2%
-- Sticky Navbar - 1%
-- Background Image - 1%
-- Scalable vector icons and inclusion of social media icons - 1%
-
-## Rules
-1. This is an individual assignment. No collaboration is permitted.
-2. It is not permitted to copy/paste code that is not your own. You are, however, free to look at different code sources for inspiration and clarity. All sources (code as well as reading material) that you reference to complete this assignment must be declared in the submission.
-3. There must be no use of any library.
-4. There should be no use of inline styling.
-5. No inline script tags should be used.
-6. HTML tables cannot be used for layout.
-7. If you think something you’re doing might not be acceptable, please ask on Piazza.
 
 ## Environment Setup Guide
 1. Clone the repository:
@@ -74,6 +46,3 @@ Your webpage will have to implement the features listed below. Note that the exa
 `npm run dev`
 4. Open a browser and go to `http://localhost:8080/` to view your page. You should see "Welcome to MP1!" at the top of the screen. Note that if for some reason your port 8080 is occupied, it will default to 8081.
 
-## Submission Details
-
-TBD
